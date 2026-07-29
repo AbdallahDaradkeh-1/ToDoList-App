@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="ToDoList App" id="fKt4HzYIpAR-Otf8DwP3">
+    <mxGraphModel dx="1802" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1420" width="230" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-4" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-6" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-8" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 22px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;b&gt;ToDoList App&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;واجهة المستخدم&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;المنطق تبع البرنامج والعمليات اللي بتصير جواته&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="280" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;المكان اللي بخزن كل المعلومات (مستخدمين، كلمات سر، صور،التطبيق أو الموقع نفسه،...)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="250" x="-50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تطبيق ToDoList هو برنامج بسمح للمستخدم إنه ينشئ قوائم مهام لازم يعملها. المستخدم بقدر يحدد تاريخ(شهر،يوم،سنة) القائمة، بقدر يضيف مهام على القائمة، فيه ممكن تكون مزايا، بقدر يحدد أولويات المهام&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;الهدف: جمع جميع المهمات التي يريد المستخدم تنفيذها في مكان واحد لتسهيل إدارتها وتجنب مشاكل شائعة كتنفيذ مهام ذات أولوية قليلة أولا أو نسيان تنفيذ مهمة ما، ...&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="364" x="50" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;شو هو التطبيق وهدفه؟&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="510" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تسجيل اسم المستخدم&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;إضافة مهمات لقائمة معينة&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;يختارها المستخدم&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="285" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;إنشاء قائمة مهمات&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="285" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;حذف قائمة مهمات&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تغيير تفاصيل ومعلومات قائمة مهمات&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;ترتيب قوائم المهمات حسب معايير مختلفة كالتاريخ والعناوين،...&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="285" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;البحث عن قائمة مهام معينة&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="285" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;حذف جميع قوائم المهام(فقط للمطور)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="280" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;حذف مهمات لقائمة معينة&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;يختارها المستخدم&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تغيير مهمات لقائمة معينة&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;يختارها المستخدم&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;حذف جميع المهمات في جميع القوائم(للمطور فقط)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تحقق من أن المطور هو فقط من ينفذ المهام الخاصة به&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="285" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تخزين المعلومات اللي بدخلها المستخدم محليا مبدئيا جوا ملف، ممكن برضه أحط خيارات للتخزين(جوا كلاود)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تحديد أولوية المهام في قائمة المهام&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="295" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="300" width="120" x="555" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-32" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-31" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="FzxrbVdsOaXDZtc13aV4-31" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="590" y="389.5" as="sourcePoint" />
+            <mxPoint x="690" y="389.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-33" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-31" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="FzxrbVdsOaXDZtc13aV4-31" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="565" y="550" as="sourcePoint" />
+            <mxPoint x="685" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="300" width="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-35" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-34" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="FzxrbVdsOaXDZtc13aV4-34" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="35" y="429.5" as="sourcePoint" />
+            <mxPoint x="135" y="429.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-36" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-34" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="FzxrbVdsOaXDZtc13aV4-34" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="10" y="590" as="sourcePoint" />
+            <mxPoint x="130" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تحدي: عمل إحصائيات بتساعد المستخدم زي:&lt;/span&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;المهام اللي تم تنفيذها اليوم&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;المهام اللي ضايلة&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;مجموع المهام الكلي&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;نسبة إنجاز المستخدم اليومية من مية، ...&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="295" y="1330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B1jKPquHRgkfPLCWw-ai" name="TaskList Details">
+    <mxGraphModel dx="825" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Y7A80CxgX3qDujF9KwV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;(تفاصيل)قائمة مهمات&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Y7A80CxgX3qDujF9KwV-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;اسم&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="430" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9Y7A80CxgX3qDujF9KwV-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تاريخ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="240" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
