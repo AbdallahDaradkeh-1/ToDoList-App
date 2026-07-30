@@ -50,7 +50,3 @@ class Main:
       print("Line Number", error_info.lineno)
 
 
-
-main = Main()
-
-main.start()

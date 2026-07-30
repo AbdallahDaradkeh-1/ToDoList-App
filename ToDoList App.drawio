@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="ToDoList App" id="fKt4HzYIpAR-Otf8DwP3">
     <mxGraphModel dx="1899" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,11 +159,34 @@
         <mxCell id="SBBR_DViIajfNaaBVBNK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;نقوم بحذفها من قائمة tasks_lists&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;نحدث الحفظ&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="420" x="220" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="N5HNZNW6_TTVVV9t_WRi-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;نقوم بحذفها من قائمة tasks_list&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;نحدث الحفظ&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="N5HNZNW6_TTVVV9t_WRi-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;ابني دالة عامة عشان كلما تحتاج تحذف من قائمة جديدة تضيفها بكل سهولة&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="420" x="230" y="260" as="geometry" />
         </mxCell>
         <mxCell id="N5HNZNW6_TTVVV9t_WRi-2" edge="1" parent="1" source="SBBR_DViIajfNaaBVBNK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SBBR_DViIajfNaaBVBNK-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T38QCVfmlPrMEekOZIRJ" name="مشاكل الكود اللي بكتبه">
+    <mxGraphModel dx="1652" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tQVoiNG--hJBkWEdkKXM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="370" width="730" x="-60" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tQVoiNG--hJBkWEdkKXM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;فيه كود مكتوب بشكل &lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;جامد &lt;/b&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;hardcode &lt;/b&gt;يعني التعليمات مكتوبة بشكل جامد. لما بدي آجي أغير لازم أضيف بشكل يدوي على الكود وهذا الإشي سلبي عشان بتطلب منا نضل نروح نغير بجزئيات من الكود اللي ممكن يتسبب فيه مشاكل أخرى بالكود&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;وبرضه مش عملي عشان كل ما البرنامج يطلع بأشياء تعديلات جديدة، المطورين بروحوا بصيروا يضيفوا فيها بشكل يدوي، واحنا بدنا نكتب كود بحيث يجري عليه تعديلات بالحد الأدنى. بدنا قدر المستطاع ما نضطر نرجع نعدل&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="330" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tQVoiNG--hJBkWEdkKXM-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;عندي مشكلة في &lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;معالجة الأخطاء أو ال Error Handling&lt;/b&gt;، هيني قاعد بستخدمهم بس لازم أقرأ وأتزود بمعرفة عنهم وأخصصلهم وقت&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="320" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tQVoiNG--hJBkWEdkKXM-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;عندي مشكلة في &lt;b&gt;هياكل البيانات&lt;/b&gt;، لازم أكتسب معرفة وتجربة عملية معاهم، وأعرف إيجابيات وسلبيات ومتى نستخدم كل واحد عشان أكتب كود فعال بستخدم الموارد بأكبر فاعلية ممكنة.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="340" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="tQVoiNG--hJBkWEdkKXM-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;المشكلة العامة إنه فيه جزئيات بالبرمجة لازم أتزود فيها من المعرفة والتجربة والممارسة عشان أعرف أستخدمها وأنا أبرمج&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="160" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
