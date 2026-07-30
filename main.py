@@ -13,6 +13,8 @@ class Main:
     self.optionsNumber += 1
     print("2. Print Tasks Info")
     self.optionsNumber += 1
+    print("3. Delete Options Choices")
+    self.optionsNumber += 1
 
     print("-1. Exit Program")
     
@@ -30,6 +32,8 @@ class Main:
           self.operations.create_tasks_list()
         elif operationNumber == 2:      
           self.operations.print_tasks_list_info()
+        elif operationNumber == 3:
+          self.operations.deleteListsOptions()
         elif operationNumber == -1:      
           print("Exiting Program...")
           return
