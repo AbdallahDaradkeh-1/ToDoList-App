@@ -21,29 +21,30 @@ class Main:
 
 
   def start(self):
-    try:  
-      while True:
-        self.operations.load_tasks_list_data()
-
-        print("Welcome, Enter Operation Number You Want To Perform:")
-        self.show_menu()
-        operationNumber = int(input())
-        if operationNumber == 1:
-          self.operations.create_tasks_list()
-        elif operationNumber == 2:      
-          self.operations.print_tasks_list_info()
-        elif operationNumber == 3:
-          self.operations.deleteListsOptions()
-        elif operationNumber == -1:      
-          print("Exiting Program...")
-          return
-        else:
-          print("Invalid Input, Out Of Range!")
+    while True:
+      try:  
         
-    except Exception as error:
-      error_info = traceback.extract_tb(error.__traceback__)[-1]
-      print("Error Type:", type(error).__name__)
-      print("Error Message:", error)
-      print("Line Number", error_info.lineno)
+          self.operations.load_tasks_list_data()
+
+          print("Welcome, Enter Operation Number You Want To Perform:")
+          self.show_menu()
+          operationNumber = int(input())
+          if operationNumber == 1:
+            self.operations.create_tasks_list()
+          elif operationNumber == 2:      
+            self.operations.print_tasks_list_info()
+          elif operationNumber == 3:
+            self.operations.deleteListsOptions()
+          elif operationNumber == -1:      
+            print("Exiting Program...")
+            return
+          else:
+            print("Invalid Input, Out Of Range!")
+          
+      except Exception as error:
+        error_info = traceback.extract_tb(error.__traceback__)[-1]
+        print("Error Type:", type(error).__name__)
+        print("Error Message:", error)
+        print("Line Number", error_info.lineno)
 
 
