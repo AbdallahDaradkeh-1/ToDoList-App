@@ -23,8 +23,11 @@ def create_tasks_list(self):
       print("Line Number:", error_info.lineno)
 
 def print_tasks_list_info(self):
+    print("Existing TasksLists:")
+    i = 1
     for task in self.tasks_lists:
-      print(task.name, task.date)
+      print(i, task.name, task.date)
+      i+=1
 def deleteListsOptions(self):
     try:  
       print("Delete Options")
@@ -36,6 +39,8 @@ def deleteListsOptions(self):
       if deleteOption == 1:
         self.deleteGeneralList(self.tasks_lists)
       elif deleteOption == 2:
+        self.print_tasks_list_info()
+        print("Enter TasksList Title You Wanna Delete")
         inputTitle = input()
         self.deleteSpecificTaskList(inputTitle, self.tasks_lists)
       elif deleteOption == 3:
