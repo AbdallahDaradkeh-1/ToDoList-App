@@ -4,8 +4,8 @@ class ToDoListOperations:
   def __init__(self):
     self.tasks_lists = []
 
-  def load_data(self):
-    TasksListLogic.load_data(self)
+  def load_tasks_list_data(self):
+    TasksListLogic.load_tasks_list_data(self)
 
 
   def create_tasks_list(self):

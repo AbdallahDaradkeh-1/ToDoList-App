@@ -23,7 +23,7 @@ class Main:
   def start(self):
     try:  
       while True:
-        self.operations.load_data()
+        self.operations.load_tasks_list_data()
 
         print("Welcome, Enter Operation Number You Want To Perform:")
         self.show_menu()

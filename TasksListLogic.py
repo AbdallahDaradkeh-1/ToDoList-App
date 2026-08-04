@@ -1,5 +1,6 @@
 from datetime import date
 import shelve, traceback
+import loadData
 
 def create_tasks_list(self):
     try:
@@ -54,11 +55,8 @@ def deleteGeneralList(self, list):
           db["tasks_lists"] = list
           print("This List Updates Have Been Saved")
 
-def load_data(self):
-    with shelve.open("local_storage") as db:  
-      loaded_tasks_lists = db.get("tasks_lists", [])
-      self.tasks_lists = loaded_tasks_lists
-      print("Data Has Been Loaded")        
+def load_tasks_list_data(self):
+    loadData.load_tasks_list_data(self)       
 
 class TasksList:
   def __init__(self, name):
