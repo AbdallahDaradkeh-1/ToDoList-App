@@ -1,6 +1,7 @@
 from datetime import date
 import shelve, traceback
 import loadData
+import TasksList
 
 def create_tasks_list(self):
     try:
@@ -8,7 +9,7 @@ def create_tasks_list(self):
       print("Enter TasksList Name, please:")
       task_name = input()
 
-      new_task = TasksList(task_name)
+      new_task = TasksList.TasksListc(task_name)
 
       self.tasks_lists.append(new_task)
       with shelve.open("local_storage") as db:
@@ -86,9 +87,4 @@ def deleteSpecificTaskList(self, title, list):
 
 def load_tasks_list_data(self):
     loadData.load_tasks_list_data(self)       
-
-class TasksList:
-  def __init__(self, name):
-    self.name = name
-    self.date = date.today()
 
