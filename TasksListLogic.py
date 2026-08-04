@@ -29,11 +29,15 @@ def deleteListsOptions(self):
       print("Delete Options")
       print("Choose What do you want to delete?")
       print("1. Delete Tasks Lists")
-      print("2. Cancel")
+      print("2. Delete Specific Tasks List")
+      print("3. Cancel")
       deleteOption = int(input())
       if deleteOption == 1:
         self.deleteGeneralList(self.tasks_lists)
       elif deleteOption == 2:
+        inputTitle = input()
+        self.deleteSpecificTaskList(inputTitle, self.tasks_lists)
+      elif deleteOption == 3:
         print("Cancel...")
       else:
         print("Invalid Input")
@@ -54,6 +58,31 @@ def deleteGeneralList(self, list):
       with shelve.open("local_storage") as db:
           db["tasks_lists"] = list
           print("This List Updates Have Been Saved")
+
+def deleteSpecificTaskList(self, title, list):
+   # Start save the index
+  index = 0
+   # Return List is Empty message if it is empty
+  if len(list) == 0:
+      print("List Is Empty, no TasksList To Delete")
+      return
+   # Go Through All List Items
+  for item in list:
+   # If title is there, pop that item, Continuesly increase the index to pop at it
+    if item.name.lower() == title.lower():
+       list.pop(index)
+       with shelve.open('local_storage') as db:
+          db["tasks_lists"] = list
+          print(title, "TasksList Has Been Deleted From The List")
+       return
+    index += 1
+  
+
+  print("TasksList with such title is not exist")
+  
+   
+
+  
 
 def load_tasks_list_data(self):
     loadData.load_tasks_list_data(self)       

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="6">
   <diagram name="ToDoList App" id="fKt4HzYIpAR-Otf8DwP3">
-    <mxGraphModel dx="2327" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2476" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,6 +125,9 @@
         <mxCell id="c8l7zKaoHBkIkNo1RM0X-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;The Main thing that we need is to keep adding operations right now&lt;/font&gt;" vertex="1">
           <mxGeometry height="100" width="250" x="-420" y="405" as="geometry" />
         </mxCell>
+        <mxCell id="eUWVftN_aA66AMecaVXZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;حذف قائمة مهمات معينة&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="285" y="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -169,7 +172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T38QCVfmlPrMEekOZIRJ" name="مشاكل الكود اللي بكتبه">
-    <mxGraphModel dx="2077" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,7 +197,7 @@
         <mxCell id="InikXSPS4y2FAqP-0wjr-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="لازم يكون عندي معرفة بتاريخ البرمجة، وكيف البرنامج عندي بشتغل، هذا الشيء لازم أقرأ عنه" vertex="1">
           <mxGeometry height="70" width="320" x="-80" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="sUnwzW1NCYzHd75fzQbK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;لازم يكون فيه توثيق يشرح كل دالة method شو بتعمل وكل class شو وظيفته: أظن هيك بصير تكبير البرنامج وصيانته أسهل بكثير(ناقصني قراءة برضه) عشان أشوف الحلول الموجودة لهي القصص المختلفة&lt;/div&gt;" vertex="1">
+        <mxCell id="sUnwzW1NCYzHd75fzQbK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;لازم يكون فيه توثيق يشرح كل دالة method شو بتعمل وكل class شو وظيفته: أظن هيك بصير تكبير البرنامج وصيانته أسهل بكثير(ناقصني قراءة برضه) عشان أشوف الحلول الموجودة لهي القصص المختلفة. عندي فكرة، لو كل ملف بالكلاس اللي فيه بالدوال نعمل توثيق وهكذا وكل مجلد لبين ما نغطي النظام كامل.&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="320" x="-80" y="320" as="geometry" />
         </mxCell>
         <mxCell id="GQfX6cZzQtdgtpE_iPQW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="لازم ألعب بالمسامير والبراغي كثير دائما، وكمل قراءة وتعلم مش مشكلة" vertex="1">
@@ -218,7 +221,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JBg1G5IOdKZJ1vA0aZSG" name="UML Class Diagram">
-    <mxGraphModel dx="1652" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1899" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

@@ -19,6 +19,9 @@ class ToDoListOperations:
 
   def deleteGeneralList(self, list):
    TasksListLogic.deleteGeneralList(self, list)
+
+  def deleteSpecificTaskList(self, title, list):
+    TasksListLogic.deleteSpecificTaskList(self, title, list)
   
 
 
