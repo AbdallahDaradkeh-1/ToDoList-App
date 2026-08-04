@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" pages="4">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="ToDoList App" id="fKt4HzYIpAR-Otf8DwP3">
-    <mxGraphModel dx="1899" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2327" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,12 +169,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T38QCVfmlPrMEekOZIRJ" name="مشاكل الكود اللي بكتبه">
-    <mxGraphModel dx="1652" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2077" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tQVoiNG--hJBkWEdkKXM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="370" width="730" x="-60" y="90" as="geometry" />
+          <mxGeometry height="410" width="800" x="-130" y="90" as="geometry" />
         </mxCell>
         <mxCell id="tQVoiNG--hJBkWEdkKXM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;فيه كود مكتوب بشكل &lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;جامد &lt;/b&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;hardcode &lt;/b&gt;يعني التعليمات مكتوبة بشكل جامد. لما بدي آجي أغير لازم أضيف بشكل يدوي على الكود وهذا الإشي سلبي عشان بتطلب منا نضل نروح نغير بجزئيات من الكود اللي ممكن يتسبب فيه مشاكل أخرى بالكود&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;وبرضه مش عملي عشان كل ما البرنامج يطلع بأشياء تعديلات جديدة، المطورين بروحوا بصيروا يضيفوا فيها بشكل يدوي، واحنا بدنا نكتب كود بحيث يجري عليه تعديلات بالحد الأدنى. بدنا قدر المستطاع ما نضطر نرجع نعدل&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="320" x="330" y="110" as="geometry" />
@@ -187,6 +187,116 @@
         </mxCell>
         <mxCell id="tQVoiNG--hJBkWEdkKXM-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;المشكلة العامة إنه فيه جزئيات بالبرمجة لازم أتزود فيها من المعرفة والتجربة والممارسة عشان أعرف أستخدمها وأنا أبرمج&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="320" x="160" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="InikXSPS4y2FAqP-0wjr-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;لازم أجمع معرفة عن الأماكن اللي بقدر فيها أخزن البيانت(أشهر الأماكن) وكيف أستخدمها جوا البرنامج، ويصير عندي فيها تجربة كويسة كثير وممارسة&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="-80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="InikXSPS4y2FAqP-0wjr-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="لازم يكون عندي معرفة بتاريخ البرمجة، وكيف البرنامج عندي بشتغل، هذا الشيء لازم أقرأ عنه" vertex="1">
+          <mxGeometry height="70" width="320" x="-80" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sUnwzW1NCYzHd75fzQbK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;لازم يكون فيه توثيق يشرح كل دالة method شو بتعمل وكل class شو وظيفته: أظن هيك بصير تكبير البرنامج وصيانته أسهل بكثير(ناقصني قراءة برضه) عشان أشوف الحلول الموجودة لهي القصص المختلفة&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="-80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GQfX6cZzQtdgtpE_iPQW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="لازم ألعب بالمسامير والبراغي كثير دائما، وكمل قراءة وتعلم مش مشكلة" vertex="1">
+          <mxGeometry height="70" width="320" x="-70" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZQje1ZVV4pnaKn8GuzYx" name="ملاحظات حلوة وكثير كيفت عليها">
+    <mxGraphModel dx="613" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5UVUgcDLZC9Nijp_MHUl-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="170" width="540" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="b231ROW3E3OjSxZVqWbU-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;ال Seperation Of Concerns أو فصل الإختصاصات بملفات منفصلة، زي إنه ملف يتولى أمر التشغيل، تشغيل البرنامج، ملف آخر يتولى أمر أداء العمليات في البرنامج main وملف نكتب فيه العمليات الخاصة بالبرنامج Operations هذا يسهل كثير الفهم وقراءة الكود وتصليح الأخطاء والصيانة ومريح أكثر بكثير. وإذا بدنا نضيف أشياء زيادة بكون كثير سهل&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="414" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JBg1G5IOdKZJ1vA0aZSG" name="UML Class Diagram">
+    <mxGraphModel dx="2077" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;ToDoListOperations&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="190" x="300" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-6" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tasks_lists: List&amp;lt;TasksList&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-7" parent="3MGMlKNQOSv2SSOdKsHP-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-8" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ load_data()" vertex="1">
+          <mxGeometry height="26" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-9" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ create_tasks_list()" vertex="1">
+          <mxGeometry height="26" width="190" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-10" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ print_tasks_list_info()" vertex="1">
+          <mxGeometry height="26" width="190" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-11" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteListsOptions()" vertex="1">
+          <mxGeometry height="26" width="190" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-19" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteGeneralList(List: list)" vertex="1">
+          <mxGeometry height="26" width="190" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TasksList" vertex="1">
+          <mxGeometry height="86" width="160" x="690" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-21" parent="3MGMlKNQOSv2SSOdKsHP-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ name: String" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-24" parent="3MGMlKNQOSv2SSOdKsHP-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ date: date = date.today()" vertex="1">
+          <mxGeometry height="26" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-22" parent="3MGMlKNQOSv2SSOdKsHP-20" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-25" edge="1" parent="1" source="3MGMlKNQOSv2SSOdKsHP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="141.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MGMlKNQOSv2SSOdKsHP-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Manages" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Main" vertex="1">
+          <mxGeometry height="138" width="200" x="-20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-2" parent="ZyajZNKt3M_Z2aK7Yxms-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ operations: ToDoListOperations" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-3" parent="ZyajZNKt3M_Z2aK7Yxms-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ date: date" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-4" parent="ZyajZNKt3M_Z2aK7Yxms-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-5" parent="ZyajZNKt3M_Z2aK7Yxms-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ show_menu()" vertex="1">
+          <mxGeometry height="26" width="200" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-8" parent="ZyajZNKt3M_Z2aK7Yxms-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ start()" vertex="1">
+          <mxGeometry height="26" width="200" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-17" edge="1" parent="1" source="ZyajZNKt3M_Z2aK7Yxms-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-69.99999999999977" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-16" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;« Module »&lt;/span&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;Demo&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="-330" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="run" vertex="1">
+          <mxGeometry height="30" width="60" x="-190" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyajZNKt3M_Z2aK7Yxms-19" edge="1" parent="1" source="3MGMlKNQOSv2SSOdKsHP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.022;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=1;" target="ZyajZNKt3M_Z2aK7Yxms-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -40,9 +40,6 @@ class Main:
         else:
           print("Invalid Input, Out Of Range!")
         
-
-
-
     except Exception as error:
       error_info = traceback.extract_tb(error.__traceback__)[-1]
       print("Error Type:", type(error).__name__)
