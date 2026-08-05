@@ -1,11 +1,11 @@
-import TasksListLogic
+import TasksListLogic, LoadData
 
 class ToDoListOperations:
   def __init__(self):
     self.tasks_lists = []
 
   def load_tasks_list_data(self):
-    TasksListLogic.load_tasks_list_data(self)
+    LoadData.load_tasks_list_data(self)
 
 
   def create_tasks_list(self):

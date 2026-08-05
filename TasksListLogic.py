@@ -87,9 +87,3 @@ def deleteSpecificTaskList(self, title, list):
   print("TasksList with such title is not exist")
   
    
-
-  
-
-def load_tasks_list_data(self):
-    LoadData.load_tasks_list_data(self)       
-
