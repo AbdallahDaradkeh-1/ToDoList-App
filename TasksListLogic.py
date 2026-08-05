@@ -77,4 +77,26 @@ def deleteSpecificTaskList(title, list):
 
   print("TasksList with such title is not exist")
   
-   
+def FindSpecificTaskList(self, list):
+   index = 1
+   outputs = 0
+   self.print_tasks_list_info()
+   print("Enter TasksList Name You are Searching For:")
+   try:
+    tasksListTitle = input()
+   except Exception as error:
+         error_info = traceback.extract_tb(error.__traceback__)[-1]
+         print("Error Type:", type(error).__name__)
+         print("Error Message:", error)
+         print("Line Number:", error_info.lineno)
+   for CurrenttasksList in list:
+      if tasksListTitle.lower() in CurrenttasksList.name.lower():
+         print(index, CurrenttasksList.name, CurrenttasksList.date)
+         outputs += 1
+         index += 1
+
+   if outputs == 0:
+    print("No TasksList With Such Name", tasksListTitle)
+
+    
+      

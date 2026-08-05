@@ -17,6 +17,9 @@ class ToDoListOperations:
   def deleteListsOptions(self):
    TasksListLogic.deleteListsOptions(self)
 
+  def FindSpecificTaskList(self):
+    TasksListLogic.FindSpecificTaskList(self, self.tasks_lists)
+
 
 
 
