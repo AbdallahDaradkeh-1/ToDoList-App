@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="6">
   <diagram name="ToDoList App" id="fKt4HzYIpAR-Otf8DwP3">
-    <mxGraphModel dx="1802" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1955" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,9 +49,6 @@
         <mxCell id="FzxrbVdsOaXDZtc13aV4-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;strike&gt;إنشاء قائمة مهمات&lt;/strike&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="285" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="FzxrbVdsOaXDZtc13aV4-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;strike data--h-bstatus=&quot;0OBSERVED&quot;&gt;حذف قائمة مهمات&lt;/strike&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="190" x="290" y="380" as="geometry" />
-        </mxCell>
         <mxCell id="FzxrbVdsOaXDZtc13aV4-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تغيير تفاصيل ومعلومات قائمة مهمات&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="290" y="440" as="geometry" />
         </mxCell>
@@ -83,7 +80,7 @@
           <mxGeometry height="30" width="190" x="295" y="1160" as="geometry" />
         </mxCell>
         <mxCell id="FzxrbVdsOaXDZtc13aV4-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="300" width="120" x="555" y="240" as="geometry" />
+          <mxGeometry height="300" width="120" x="570" y="350" as="geometry" />
         </mxCell>
         <mxCell id="FzxrbVdsOaXDZtc13aV4-32" edge="1" parent="1" source="FzxrbVdsOaXDZtc13aV4-31" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="FzxrbVdsOaXDZtc13aV4-31" value="">
           <mxGeometry relative="1" width="100" as="geometry">
@@ -127,6 +124,12 @@
         </mxCell>
         <mxCell id="eUWVftN_aA66AMecaVXZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;strike&gt;حذف قائمة مهمات معينة&lt;/strike&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="285" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yow8MotqB5-azWVn1Igq-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;طباعة جميع قوائم المهام&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="290" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="1hwD5tXb-_mLFNjC8lp5-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;المتسخدم بشتغل على التيرمنال لحد الآن&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="535" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -172,12 +175,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T38QCVfmlPrMEekOZIRJ" name="مشاكل الكود اللي بكتبه">
-    <mxGraphModel dx="1652" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tQVoiNG--hJBkWEdkKXM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="500" width="800" x="-130" y="90" as="geometry" />
+          <mxGeometry height="590" width="800" x="-130" y="90" as="geometry" />
         </mxCell>
         <mxCell id="tQVoiNG--hJBkWEdkKXM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;فيه كود مكتوب بشكل &lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;جامد &lt;/b&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;hardcode &lt;/b&gt;يعني التعليمات مكتوبة بشكل جامد. لما بدي آجي أغير لازم أضيف بشكل يدوي على الكود وهذا الإشي سلبي عشان بتطلب منا نضل نروح نغير بجزئيات من الكود اللي ممكن يتسبب فيه مشاكل أخرى بالكود&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;وبرضه مش عملي عشان كل ما البرنامج يطلع بأشياء تعديلات جديدة، المطورين بروحوا بصيروا يضيفوا فيها بشكل يدوي، واحنا بدنا نكتب كود بحيث يجري عليه تعديلات بالحد الأدنى. بدنا قدر المستطاع ما نضطر نرجع نعدل&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="320" x="330" y="110" as="geometry" />
@@ -206,8 +209,14 @@
         <mxCell id="CCElrKnKvkefvX1i1Yrs-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;اليوم&amp;nbsp; فيه Exception صار و ال try-except ما مسكوه، عشان اسم الكلاس كان يشبه اسم الملف. كيف بقدر أمسك كل ال exceptions اللي ممكن يصيروا&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="320" x="-70" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="CCElrKnKvkefvX1i1Yrs-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;لازم أعمل قائمة فيها كل العمليات اللي عملتها على الكود أقدر أراجعها، أظن هذا هو دور ال commit بال git لازم أحاول أتعلمه وأزبطه&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="320" x="310" y="480" as="geometry" />
+        <mxCell id="CCElrKnKvkefvX1i1Yrs-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="الأدوات البرمجية اللي بشتغل معاها لازم أتعلمها: زي التيرمنال والكمبيوتر وقطعه، ولغات البرمجة وقواعد البيانات" vertex="1">
+          <mxGeometry height="70" width="320" x="340" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="KpaFdpvbAxy6YiGfMmlR-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;لازم أعمل قائمة فيها كل العمليات اللي عملتها على الكود أقدر أراجعها، أظن هذا هو دور ال commit بال git لازم أحاول أتعلمه وأزبطه&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="320" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="zgHsDGa4C4tI87_ZIYLw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;أنا شغال بعشوائية لازم يكون عندي منهجية شغال عليها، مش بس أبدا أعمل عمليات هيك. لازم مثلا أبدأ Agile أصير أعمل Sprints وشوي شوي وهيك بتصير شغلة الدوبامين هيتس اللي حكينا عنها&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="-50" y="585" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -227,7 +236,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JBg1G5IOdKZJ1vA0aZSG" name="UML Class Diagram">
-    <mxGraphModel dx="1720" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1955" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,6 +350,30 @@
         </mxCell>
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses" vertex="1">
           <mxGeometry height="30" width="60" x="590" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;«module»TasksListLogic&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="260" x="300" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-2" parent="RVaFviPTrkn-nWRFmJuu-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-3" parent="RVaFviPTrkn-nWRFmJuu-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ load_data()" vertex="1">
+          <mxGeometry height="26" width="260" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-4" parent="RVaFviPTrkn-nWRFmJuu-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ create_tasks_list()" vertex="1">
+          <mxGeometry height="26" width="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-5" parent="RVaFviPTrkn-nWRFmJuu-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ print_tasks_list_info()" vertex="1">
+          <mxGeometry height="26" width="260" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-6" parent="RVaFviPTrkn-nWRFmJuu-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteListsOptions()" vertex="1">
+          <mxGeometry height="26" width="260" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-7" parent="RVaFviPTrkn-nWRFmJuu-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteGeneralList(List: list)" vertex="1">
+          <mxGeometry height="26" width="260" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-8" parent="RVaFviPTrkn-nWRFmJuu-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteSpecificTasksList(title: String,List: list)" vertex="1">
+          <mxGeometry height="26" width="260" y="164" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
