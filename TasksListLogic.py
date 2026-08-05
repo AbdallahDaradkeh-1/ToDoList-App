@@ -1,6 +1,6 @@
 from datetime import date
 import shelve, traceback
-import LoadData
+import LoadData, HelperMethods
 import TasksList
 
 def create_tasks_list(self):
@@ -37,7 +37,7 @@ def deleteListsOptions(self):
       print("3. Cancel")
       deleteOption = int(input())
       if deleteOption == 1:
-        self.deleteGeneralList(self.tasks_lists)
+        HelperMethods.deleteGeneralList(self.tasks_lists)
       elif deleteOption == 2:
         self.print_tasks_list_info()
         print("Enter TasksList Title You Wanna Delete")
@@ -54,16 +54,7 @@ def deleteListsOptions(self):
       print("Error Message:", error)
       print("Line Number:", error_info.lineno)
 
-def deleteGeneralList(self, list):
-      i = 0
-      if len(list) == 0:
-        print("This List Is Empty")
 
-      list.clear()
-        
-      with shelve.open("local_storage") as db:
-          db["tasks_lists"] = list
-          print("This List Updates Have Been Saved")
 
 def deleteSpecificTaskList(self, title, list):
    # Start save the index
