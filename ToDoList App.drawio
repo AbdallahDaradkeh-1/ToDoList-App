@@ -251,7 +251,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;ToDoListOperations&lt;/span&gt;" vertex="1">
-          <mxGeometry height="220" width="260" x="300" y="130" as="geometry" />
+          <mxGeometry height="194" width="260" x="300" y="130" as="geometry" />
         </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-6" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tasks_lists: List&amp;lt;TasksListc&amp;gt;" vertex="1">
           <mxGeometry height="26" width="260" y="26" as="geometry" />
@@ -271,11 +271,8 @@
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-11" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteListsOptions()" vertex="1">
           <mxGeometry height="26" width="260" y="138" as="geometry" />
         </mxCell>
-        <mxCell id="3MGMlKNQOSv2SSOdKsHP-19" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteGeneralList(List: list)" vertex="1">
-          <mxGeometry height="26" width="260" y="164" as="geometry" />
-        </mxCell>
         <mxCell id="MvQELbhZrDl5xVNyl08L-1" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteSpecificTasksList(title: String,List: list)" vertex="1">
-          <mxGeometry height="30" width="260" y="190" as="geometry" />
+          <mxGeometry height="30" width="260" y="164" as="geometry" />
         </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TasksListc" vertex="1">
           <mxGeometry height="86" width="160" x="730" y="72" as="geometry" />
@@ -329,8 +326,13 @@
         <mxCell id="ZyajZNKt3M_Z2aK7Yxms-19" edge="1" parent="1" source="3MGMlKNQOSv2SSOdKsHP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.022;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=1;" target="ZyajZNKt3M_Z2aK7Yxms-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-18" edge="1" parent="1" source="2Qkc_QaelLdTKVXcl7n0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;«module»TasksListLogic&lt;/span&gt;" vertex="1">
-          <mxGeometry height="164" width="260" x="710" y="220" as="geometry" />
+          <mxGeometry height="138" width="260" x="710" y="220" as="geometry" />
         </mxCell>
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-3" parent="2Qkc_QaelLdTKVXcl7n0-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="260" y="26" as="geometry" />
@@ -344,11 +346,8 @@
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-7" parent="2Qkc_QaelLdTKVXcl7n0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteListsOptions()" vertex="1">
           <mxGeometry height="26" width="260" y="86" as="geometry" />
         </mxCell>
-        <mxCell id="2Qkc_QaelLdTKVXcl7n0-8" parent="2Qkc_QaelLdTKVXcl7n0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteGeneralList(List: list)" vertex="1">
-          <mxGeometry height="26" width="260" y="112" as="geometry" />
-        </mxCell>
         <mxCell id="MvQELbhZrDl5xVNyl08L-2" parent="2Qkc_QaelLdTKVXcl7n0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteSpecificTasksList(title: String,List: list)" vertex="1">
-          <mxGeometry height="26" width="260" y="138" as="geometry" />
+          <mxGeometry height="26" width="260" y="112" as="geometry" />
         </mxCell>
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses" vertex="1">
           <mxGeometry height="30" width="60" x="590" y="190" as="geometry" />
@@ -364,6 +363,18 @@
         </mxCell>
         <mxCell id="RVaFviPTrkn-nWRFmJuu-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses" vertex="1">
           <mxGeometry height="30" width="60" x="380" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;«module»HelperMethods&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="1160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-12" parent="RVaFviPTrkn-nWRFmJuu-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-16" parent="RVaFviPTrkn-nWRFmJuu-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ deleteGeneralList(List: list)" vertex="1">
+          <mxGeometry height="26" width="260" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="RVaFviPTrkn-nWRFmJuu-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses" vertex="1">
+          <mxGeometry height="30" width="60" x="1035" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
