@@ -17,9 +17,6 @@ class ToDoListOperations:
   def deleteListsOptions(self):
    TasksListLogic.deleteListsOptions(self)
 
-  def deleteSpecificTaskList(self, title, list):
-    TasksListLogic.deleteSpecificTaskList(self, title, list)
-  
 
 
 

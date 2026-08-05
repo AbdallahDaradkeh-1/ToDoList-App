@@ -42,7 +42,7 @@ def deleteListsOptions(self):
         self.print_tasks_list_info()
         print("Enter TasksList Title You Wanna Delete")
         inputTitle = input()
-        self.deleteSpecificTaskList(inputTitle, self.tasks_lists)
+        deleteSpecificTaskList(inputTitle, self.tasks_lists)
       elif deleteOption == 3:
         print("Cancel...")
       else:
@@ -56,7 +56,7 @@ def deleteListsOptions(self):
 
 
 
-def deleteSpecificTaskList(self, title, list):
+def deleteSpecificTaskList(title, list):
    # Start save the index
   index = 0
    # Return List is Empty message if it is empty
