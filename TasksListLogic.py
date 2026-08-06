@@ -1,6 +1,7 @@
 from datetime import date
 import shelve, traceback
 import LoadData, HelperMethods
+from Task import Task
 import TasksList
 
 def create_tasks_list(self):
@@ -99,4 +100,38 @@ def FindSpecificTaskList(self, list):
     print("No TasksList With Such Name", tasksListTitle)
 
     
+def add_task(self):
+    try:
+      self.load_tasks_list_data()
+      self.print_tasks_list_info()
+      print("Choose TasksList Name You want to add a Task To:")
+      tasksListName = input()
+      isTasksListNameExist = False
+      index = 0
+      for tasksList in self.tasks_lists:
+        if tasksListName.lower() == tasksList.name.lower():
+          isTasksListNameExist = True
+          break
+        index += 1
+
+      if isTasksListNameExist:
+        tasksList = self.tasks_lists[index]
+      else:
+        print("No existing TasksList With Such Name:", tasksListName)
+        return
       
+
+      print("Enter Task Name:")
+      taskName = input()
+
+      task = Task(taskName)
+      tasksList.tasks.append(task) 
+
+      print(taskName, "Task Has Been Created And Added To the chosen TasksList")
+      # I Should update the list, but first let us test it 
+    except Exception as error:
+      error_info = traceback.extract_tb(error.__traceback__)[-1]
+      print("Error Type:", type(error).__name__)
+      print("Error Message:", error)
+      print("Line Number:", error_info.lineno)   
+    

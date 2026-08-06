@@ -3,7 +3,6 @@ import traceback
 from ToDoListOperations import ToDoListOperations
 
 
-
 class Main:
   def __init__(self):
     self.operations = ToDoListOperations()
@@ -17,6 +16,8 @@ class Main:
     print("3. Delete Options Choices")
     self.optionsNumber += 1
     print("4. Search For Specific TasksList")
+    self.optionsNumber += 1
+    print("5. Add a task For Specific TasksList")
     self.optionsNumber += 1
 
     print("-1. Exit Program")
@@ -40,6 +41,8 @@ class Main:
             self.operations.deleteListsOptions()
           elif operationNumber == 4:
             self.operations.FindSpecificTaskList()
+          elif operationNumber == 5:
+            self.operations.add_task_to_specific_tasks_list()
           elif operationNumber == -1:      
             print("Exiting Program...")
             return

@@ -19,6 +19,8 @@ class ToDoListOperations:
 
   def FindSpecificTaskList(self):
     TasksListLogic.FindSpecificTaskList(self, self.tasks_lists)
+  def add_task_to_specific_tasks_list(self):
+    TasksListLogic.add_task(self)
 
 
 
