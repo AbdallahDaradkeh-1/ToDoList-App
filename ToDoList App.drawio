@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="6">
   <diagram name="ToDoList App" id="fKt4HzYIpAR-Otf8DwP3">
-    <mxGraphModel dx="2088" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2018" dy="1755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="FzxrbVdsOaXDZtc13aV4-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;ترتيب قوائم المهمات حسب معايير مختلفة كالتاريخ والعناوين،...&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="285" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="FzxrbVdsOaXDZtc13aV4-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;البحث عن قائمة مهام معينة&lt;/span&gt;" vertex="1">
+        <mxCell id="FzxrbVdsOaXDZtc13aV4-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;strike data--h-bstatus=&quot;0OBSERVED&quot;&gt;البحث عن قائمة مهام معينة&lt;/strike&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="285" y="590" as="geometry" />
         </mxCell>
         <mxCell id="FzxrbVdsOaXDZtc13aV4-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;strike data--h-bstatus=&quot;0OBSERVED&quot;&gt;حذف جميع قوائم المهام&lt;/strike&gt;(فقط للمطور)&lt;/span&gt;" vertex="1">
@@ -148,6 +148,15 @@
         </mxCell>
         <mxCell id="XnLSqwWFMqM-3c72oV6w-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;إذا كان الإسم غير مطابق ولا يوجد اسماء مشابهة، نظهر رسالة بعدم وجود أي قائمة بهذا الإسم&lt;/span&gt;" vertex="1">
           <mxGeometry height="140" width="190" x="-820" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="MvECV91PEF6vAeV9L8h0-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;إضافة مهمات لقائمة معينة&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;يختارها المستخدم&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="-393" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="MvECV91PEF6vAeV9L8h0-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&amp;nbsp;سنضيف عدة مهمات لكل قائمة مهام:&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;إذا نحتاج نموذج/كلاس&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="230" x="-410" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="MvECV91PEF6vAeV9L8h0-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;كل مهمة ستحتوي:&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;ul data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;li data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;اسم&lt;/span&gt;&lt;/li&gt;&lt;li data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تاريخ&lt;/span&gt;&lt;/li&gt;&lt;li data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;أولوية&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="230" x="-400" y="1080" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
