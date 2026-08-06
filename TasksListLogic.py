@@ -151,6 +151,7 @@ def print_tasks_list_with_their_tasks(self):
        print(t, self.tasks_lists[index].tasks[taskIndex].name, self.tasks_lists[index].tasks[taskIndex].date)
        t += 1
        taskIndex +=1
+    index += 1
     taskIndex = 0
     t = 1
     i+=1
