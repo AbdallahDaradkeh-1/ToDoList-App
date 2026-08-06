@@ -158,6 +158,9 @@
         <mxCell id="MvECV91PEF6vAeV9L8h0-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;كل مهمة ستحتوي:&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;ul data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;li data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;اسم&lt;/span&gt;&lt;/li&gt;&lt;li data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;تاريخ&lt;/span&gt;&lt;/li&gt;&lt;li data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;أولوية&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="230" x="-400" y="1080" as="geometry" />
         </mxCell>
+        <mxCell id="rmMZPjFLREEYg_ULr2GW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;direction: rtl;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;طباعة جميع المهمات لقائمة معينة أو اطبع المهمات لكل القوائم بالبداية&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="190" x="-370" y="1260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -278,7 +281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JBg1G5IOdKZJ1vA0aZSG" name="UML Class Diagram">
-    <mxGraphModel dx="2167" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1899" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -293,7 +296,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;ToDoListOperations&lt;/span&gt;" vertex="1">
-          <mxGeometry height="190" width="260" x="300" y="130" as="geometry" />
+          <mxGeometry height="216" width="260" x="300" y="130" as="geometry" />
         </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-6" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tasks_lists: List&amp;lt;TasksListc&amp;gt;" vertex="1">
           <mxGeometry height="26" width="260" y="26" as="geometry" />
@@ -316,8 +319,11 @@
         <mxCell id="xn8RfwpFwWl8z3kt1ib5-2" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ FindSpecificTaskList()" vertex="1">
           <mxGeometry height="26" width="260" y="164" as="geometry" />
         </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-8" parent="3MGMlKNQOSv2SSOdKsHP-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ add_task_to_specific_tasks_list()" vertex="1">
+          <mxGeometry height="26" width="260" y="190" as="geometry" />
+        </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TasksListc" vertex="1">
-          <mxGeometry height="86" width="160" x="730" y="72" as="geometry" />
+          <mxGeometry height="112" width="160" x="730" y="72" as="geometry" />
         </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-21" parent="3MGMlKNQOSv2SSOdKsHP-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ name: String" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -325,16 +331,16 @@
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-24" parent="3MGMlKNQOSv2SSOdKsHP-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ date: date = date.today()" vertex="1">
           <mxGeometry height="26" width="160" y="52" as="geometry" />
         </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-9" parent="3MGMlKNQOSv2SSOdKsHP-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ task[]: String" vertex="1">
+          <mxGeometry height="26" width="160" y="78" as="geometry" />
+        </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-22" parent="3MGMlKNQOSv2SSOdKsHP-20" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="78" as="geometry" />
+          <mxGeometry height="8" width="160" y="104" as="geometry" />
         </mxCell>
         <mxCell id="3MGMlKNQOSv2SSOdKsHP-25" edge="1" parent="1" source="3MGMlKNQOSv2SSOdKsHP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="140" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3MGMlKNQOSv2SSOdKsHP-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Manages" vertex="1">
-          <mxGeometry height="30" width="60" x="600" y="90" as="geometry" />
         </mxCell>
         <mxCell id="ZyajZNKt3M_Z2aK7Yxms-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Main" vertex="1">
           <mxGeometry height="138" width="200" x="-20" y="120" as="geometry" />
@@ -373,8 +379,13 @@
             <mxPoint x="1150" y="289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-7" edge="1" parent="1" source="2Qkc_QaelLdTKVXcl7n0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="539.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; data--h-bstatus=&quot;0OBSERVED&quot;&gt;«module»TasksListLogic&lt;/span&gt;" vertex="1">
-          <mxGeometry height="164" width="260" x="710" y="220" as="geometry" />
+          <mxGeometry height="190" width="260" x="710" y="220" as="geometry" />
         </mxCell>
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-3" parent="2Qkc_QaelLdTKVXcl7n0-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="260" y="26" as="geometry" />
@@ -393,6 +404,9 @@
         </mxCell>
         <mxCell id="xn8RfwpFwWl8z3kt1ib5-1" parent="2Qkc_QaelLdTKVXcl7n0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ FindSpecificTaskList(List: list)" vertex="1">
           <mxGeometry height="26" width="260" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-6" parent="2Qkc_QaelLdTKVXcl7n0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ add_task()" vertex="1">
+          <mxGeometry height="26" width="260" y="164" as="geometry" />
         </mxCell>
         <mxCell id="2Qkc_QaelLdTKVXcl7n0-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses" vertex="1">
           <mxGeometry height="30" width="60" x="590" y="190" as="geometry" />
@@ -420,6 +434,21 @@
         </mxCell>
         <mxCell id="RVaFviPTrkn-nWRFmJuu-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses" vertex="1">
           <mxGeometry height="30" width="60" x="1035" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Task" vertex="1">
+          <mxGeometry height="112" width="160" x="730" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-2" parent="ORTAhjVMB2IrP5UZgcup-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ name: String" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-3" parent="ORTAhjVMB2IrP5UZgcup-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ date: date = date.today()" vertex="1">
+          <mxGeometry height="26" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-5" parent="ORTAhjVMB2IrP5UZgcup-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ priorities[]: String" vertex="1">
+          <mxGeometry height="26" width="160" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ORTAhjVMB2IrP5UZgcup-4" parent="ORTAhjVMB2IrP5UZgcup-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="104" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

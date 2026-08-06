@@ -19,6 +19,8 @@ class Main:
     self.optionsNumber += 1
     print("5. Add a task For Specific TasksList")
     self.optionsNumber += 1
+    print("6. Print TasksLists With Their Tasks Info")
+    self.optionsNumber += 1
 
     print("-1. Exit Program")
     
@@ -43,6 +45,8 @@ class Main:
             self.operations.FindSpecificTaskList()
           elif operationNumber == 5:
             self.operations.add_task_to_specific_tasks_list()
+          elif operationNumber == 6:
+            self.operations.print_tasks_list_with_their_tasks()
           elif operationNumber == -1:      
             print("Exiting Program...")
             return

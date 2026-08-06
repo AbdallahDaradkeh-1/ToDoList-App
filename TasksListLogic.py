@@ -115,23 +115,43 @@ def add_task(self):
         index += 1
 
       if isTasksListNameExist:
-        tasksList = self.tasks_lists[index]
+        print("Enter Task Name:")
+        taskName = input()
+        
+        task = Task(taskName) 
+        self.tasks_lists[index].tasks.append(task)
+        print(taskName, "Task Has Been Created And Added To the chosen TasksList")
+
       else:
         print("No existing TasksList With Such Name:", tasksListName)
         return
       
 
-      print("Enter Task Name:")
-      taskName = input()
-
-      task = Task(taskName)
-      tasksList.tasks.append(task) 
-
-      print(taskName, "Task Has Been Created And Added To the chosen TasksList")
+    
       # I Should update the list, but first let us test it 
+      with shelve.open("local_storage") as db:
+         db['tasks_lists'] = self.tasks_lists
+         print("Added Tasks Has Been Saved...")
+         
     except Exception as error:
       error_info = traceback.extract_tb(error.__traceback__)[-1]
       print("Error Type:", type(error).__name__)
       print("Error Message:", error)
       print("Line Number:", error_info.lineno)   
     
+def print_tasks_list_with_their_tasks(self):
+  print("Existing TasksLists:")
+  i = 1
+  t = 1
+  index = 0
+  taskIndex = 0
+  for tasksList in self.tasks_lists:
+    print(i, tasksList.name, tasksList.date)
+    while taskIndex < len(self.tasks_lists[index].tasks):
+       print(t, self.tasks_lists[index].tasks[taskIndex].name, self.tasks_lists[index].tasks[taskIndex].date)
+       t += 1
+       taskIndex +=1
+    taskIndex = 0
+    t = 1
+    i+=1
+  
