@@ -1,7 +1,7 @@
 import shelve
 
 
-def deleteGeneralList(self, list):
+def deleteGeneralList(list):
       i = 0
       if len(list) == 0:
         print("This List Is Empty")
