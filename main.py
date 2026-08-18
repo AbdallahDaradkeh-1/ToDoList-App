@@ -1,6 +1,6 @@
 import traceback
 
-from ToDoListOperations import ToDoListOperations
+from to_do_list_operations import ToDoListOperations
 
 
 class Main:
@@ -8,19 +8,19 @@ class Main:
     self.operations = ToDoListOperations()
 
   def show_menu(self):
-    self.optionsNumber = 0
+    self.options_number = 0
     print("1. Create Tasks List")
-    self.optionsNumber += 1
+    self.options_number += 1
     print("2. Print Tasks Info")
-    self.optionsNumber += 1
+    self.options_number += 1
     print("3. Delete Options Choices")
-    self.optionsNumber += 1
+    self.options_number += 1
     print("4. Search For Specific TasksList")
-    self.optionsNumber += 1
+    self.options_number += 1
     print("5. Add a task For Specific TasksList")
-    self.optionsNumber += 1
+    self.options_number += 1
     print("6. Print TasksLists With Their Tasks Info")
-    self.optionsNumber += 1
+    self.options_number += 1
 
     print("-1. Exit Program")
     
@@ -34,20 +34,20 @@ class Main:
 
           print("Welcome, Enter Operation Number You Want To Perform:")
           self.show_menu()
-          operationNumber = int(input())
-          if operationNumber == 1:
+          operation_number = int(input())
+          if operation_number == 1:
             self.operations.create_tasks_list()
-          elif operationNumber == 2:      
+          elif operation_number == 2:      
             self.operations.print_tasks_list_info()
-          elif operationNumber == 3:
+          elif operation_number == 3:
             self.operations.deleteListsOptions()
-          elif operationNumber == 4:
+          elif operation_number == 4:
             self.operations.FindSpecificTaskList()
-          elif operationNumber == 5:
+          elif operation_number == 5:
             self.operations.add_task_to_specific_tasks_list()
-          elif operationNumber == 6:
+          elif operation_number == 6:
             self.operations.print_tasks_list_with_their_tasks()
-          elif operationNumber == -1:      
+          elif operation_number == -1:      
             print("Exiting Program...")
             return
           else:

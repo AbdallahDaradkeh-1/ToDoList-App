@@ -13,10 +13,10 @@ root = Tk()
 
 root.geometry("800x600")
 
-taskListLabel = Label(root, text = "TaskLists", font='bold')
+task_list_label = Label(root, text = "TaskLists", font='bold')
 
 
-taskListLabel.grid(column=0, row=0)
+task_list_label.grid(column=0, row=0)
 
 create_frame = Frame(root, padx=10, pady=10, background="yellow")
 create_frame.grid()

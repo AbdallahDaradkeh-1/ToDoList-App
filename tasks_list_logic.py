@@ -1,8 +1,8 @@
 from datetime import date
 import shelve, traceback
-import LoadData, HelperMethods
-from Task import Task
-import TasksList
+import load_data, helper_methods
+from task import Task
+import tasks_list
 
 def create_tasks_list(self):
     try:
@@ -10,7 +10,7 @@ def create_tasks_list(self):
       print("Enter TasksList Name, please:")
       task_name = input()
 
-      new_task = TasksList.TasksListc(task_name)
+      new_task = tasks_list.TasksListc(task_name.strip())
 
       self.tasks_lists.append(new_task)
       with shelve.open("local_storage") as db:
@@ -24,10 +24,10 @@ def create_tasks_list(self):
       print("Line Number:", error_info.lineno)
 
 def print_tasks_list_info(self):
-    print("Existing TasksLists:")
+    print("Existing TasksLists:\n")
     i = 1
     for task in self.tasks_lists:
-      print(i, task.name, task.date)
+      print(f"{i}" + "\t" + task.name + " " + f"{task.date}" + "\n")
       i+=1
 def deleteListsOptions(self):
     try:  
@@ -36,15 +36,15 @@ def deleteListsOptions(self):
       print("1. Delete Tasks Lists")
       print("2. Delete Specific Tasks List")
       print("3. Cancel")
-      deleteOption = int(input())
-      if deleteOption == 1:
-        HelperMethods.deleteGeneralList(self.tasks_lists)
-      elif deleteOption == 2:
+      delete_option = int(input())
+      if delete_option == 1:
+        helper_methods.deleteGeneralList(self.tasks_lists)
+      elif delete_option == 2:
         self.print_tasks_list_info()
         print("Enter TasksList Title You Wanna Delete")
         inputTitle = input()
-        deleteSpecificTaskList(inputTitle, self.tasks_lists)
-      elif deleteOption == 3:
+        delete_specific_task_list(inputTitle, self.tasks_lists)
+      elif delete_option == 3:
         print("Cancel...")
       else:
         print("Invalid Input")
@@ -57,7 +57,7 @@ def deleteListsOptions(self):
 
 
 
-def deleteSpecificTaskList(title, list):
+def delete_specific_task_list(title, list):
    # Start save the index
   index = 0
    # Return List is Empty message if it is empty
@@ -105,25 +105,25 @@ def add_task(self):
       self.load_tasks_list_data()
       self.print_tasks_list_info()
       print("Choose TasksList Name You want to add a Task To:")
-      tasksListName = input()
-      isTasksListNameExist = False
+      tasks_list_name = input()
+      is_tasks_list_name_exist = False
       index = 0
       for tasksList in self.tasks_lists:
-        if tasksListName.lower() == tasksList.name.lower():
-          isTasksListNameExist = True
+        if tasks_list_name.lower() == tasksList.name.lower():
+          is_tasks_list_name_exist = True
           break
         index += 1
 
-      if isTasksListNameExist:
+      if is_tasks_list_name_exist:
         print("Enter Task Name:")
         taskName = input()
         
-        task = Task(taskName) 
+        task = Task(taskName.strip()) 
         self.tasks_lists[index].tasks.append(task)
         print(taskName, "Task Has Been Created And Added To the chosen TasksList")
 
       else:
-        print("No existing TasksList With Such Name:", tasksListName)
+        print("No existing TasksList With Such Name:", tasks_list_name)
         return
       
 
@@ -140,19 +140,26 @@ def add_task(self):
       print("Line Number:", error_info.lineno)   
     
 def print_tasks_list_with_their_tasks(self):
-  print("Existing TasksLists:")
+  print("Existing TasksLists:\n")
   i = 1
   t = 1
   index = 0
-  taskIndex = 0
+  task_index = 0
   for tasksList in self.tasks_lists:
-    print(i, tasksList.name, tasksList.date)
-    while taskIndex < len(self.tasks_lists[index].tasks):
-       print(t, self.tasks_lists[index].tasks[taskIndex].name, self.tasks_lists[index].tasks[taskIndex].date)
+    print(f"{i}" + "\t" +  tasksList.name + f"\t{tasksList.date}\n")
+    while task_index < len(self.tasks_lists[index].tasks):
+       print(f"\t{t}", self.tasks_lists[index].tasks[task_index].name, self.tasks_lists[index].tasks[task_index].date)
        t += 1
-       taskIndex +=1
+       task_index +=1
+    print()
     index += 1
-    taskIndex = 0
+    task_index = 0
     t = 1
     i+=1
-  
+
+def add_tasks_list(self, name):
+   added_tasks_list = tasks_list.TasksListc(name)
+   self.tasks_lists.append(added_tasks_list)
+   with shelve.open("local_storage") as db:
+      db['tasks_lists'] = self.tasks_lists
+      print(f"tasks_lists '{name}' has been added" )
