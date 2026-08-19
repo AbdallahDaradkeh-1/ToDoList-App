@@ -1,4 +1,4 @@
-
+import uuid
 from datetime import date
 
 class TasksListc:
@@ -6,3 +6,4 @@ class TasksListc:
     self.name = name
     self.date = date.today()
     self.tasks = []
+    self.id = str(uuid.uuid4())
