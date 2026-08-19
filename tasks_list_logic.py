@@ -26,8 +26,8 @@ def create_tasks_list(self):
 def print_tasks_list_info(self):
     print("Existing TasksLists:\n")
     i = 1
-    for task in self.tasks_lists:
-      print(f"{i}" + "\t" + task.name + " " + f"{task.date}" + "\n")
+    for tasks_list in self.tasks_lists:
+      print(f"{i}" + "\t" + tasks_list.name + " " + f"{tasks_list.date}" + " " + tasks_list.id + "\n")
       i+=1
 def deleteListsOptions(self):
     try:  
@@ -163,3 +163,4 @@ def add_tasks_list(self, name):
    with shelve.open("local_storage") as db:
       db['tasks_lists'] = self.tasks_lists
       print(f"tasks_lists '{name}' has been added" )
+
