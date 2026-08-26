@@ -1,50 +1,36 @@
 from tkinter import *
 from to_do_list_operations import ToDoListOperations
+from tkinter import ttk
+from tkinter_functions import screen_configurations
+from tkinter_tasks_list_operations import save_task_list
 
 operations = ToDoListOperations()
 
-this_tasks_list = []
 
+root = screen_configurations()
 
-
-
-
-root = Tk()
-
-root.geometry("800x600")
-
-task_list_label = Label(root, text = "TaskLists", font='bold')
-
-
-task_list_label.grid(column=0, row=0)
+tasks_list_header_label = Label(root, text = "TaskLists", font='bold')
+tasks_list_header_label.grid(column=0, row=0)
 
 create_frame = Frame(root, padx=10, pady=10, background="yellow")
 create_frame.grid()
 
-task_title = Entry(create_frame)
+tasks_list_subject = Entry(create_frame)
 
 
-def save_task_list():
-  task_title_value = task_title.get()
-  if task_title_value:
-       operations.add_tasks_list(task_title_value)
-       task_title.delete(0, END)
 
-     
-  refresh_tasks_list()
-
-create_task_label = Label(create_frame, text="Add A TaskList Title")
-submit_task_list_button = Button(
+create_task_label = ttk.Label(create_frame, text="Add A TaskList Title")
+submit_task_list_button = ttk.Button(
   create_frame,
   text="Add",
-  command= save_task_list
+  command= lambda: save_task_list(tasks_list_subject, operations, tasks_list_frame)
 )
 
 submit_task_list_button.grid()
 
 
 create_task_label.grid()
-task_title.grid()
+tasks_list_subject.grid()
 
 
 
@@ -54,48 +40,36 @@ tasks_list_frame.grid()
 
 custom_row = 0
 
-this_tasks_list = operations.tasks_lists
+these_tasks_lists = operations.tasks_lists
 
-for tasks_list in this_tasks_list:
-    entry = Entry(tasks_list_frame,)
+for tasks_list in these_tasks_lists:
+    entry = ttk.Entry(tasks_list_frame,)
     entry.insert(0, tasks_list.name,)
     entry.config(state="readonly")
     entry.grid(sticky='e', column=0, row=custom_row, padx=50)
+    edit_action = ttk.Button(
+       tasks_list_frame,
+       text="Edit",
+       command=lambda task=tasks_list, new_entry = entry: edit_task_list(task, new_entry)
+    )
+    edit_action.grid( row=custom_row, sticky='e')
 
     custom_row += 1
 custom_row = 0
-for tasks_list in this_tasks_list:
-    entry = Entry(tasks_list_frame,)
+for tasks_list in these_tasks_lists:
+    entry = ttk.Entry(tasks_list_frame,)
     entry.insert(0, tasks_list.date)
     entry.config(state="readonly")
-    entry.grid(sticky='e', column=1, row=custom_row)
+    entry.grid(sticky='e', column=2, row=custom_row)
 
     custom_row += 1
 
 
-def refresh_tasks_list():
-  for widget in tasks_list_frame.winfo_children():
-    widget.destroy()
-
-  this_tasks_list = operations.tasks_lists
-  custom_row = 0
-
-  for tasks_list in this_tasks_list:
-    entry = Entry(tasks_list_frame,)
-    entry.insert(0, tasks_list.name,)
-    entry.config(state="readonly")
-    entry.grid(sticky='e', column=0, row=custom_row, padx=50)
-
-    custom_row += 1
-  custom_row = 0
-  for tasks_list in this_tasks_list:
-    entry = Entry(tasks_list_frame,)
-    entry.insert(0, tasks_list.date)
-    entry.config(state="readonly")
-    entry.grid(sticky='e', column=1, row=custom_row)
-
-    custom_row += 1
-
+def edit_task_list(task, entry):
+    print("Clicked:", task.name)
+    print("Task object:", task)
+    entry.config(state = "normal")
+    entry.select_range(0, "end")
 
 
 
