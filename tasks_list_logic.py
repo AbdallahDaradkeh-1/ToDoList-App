@@ -1,8 +1,7 @@
-from datetime import date
 import shelve, traceback
-import load_data, helper_methods
-from task import Task
-import tasks_list
+import helper_methods
+from classes.task import Task
+from classes.tasks_list import TasksListc
 
 def create_tasks_list(self):
     try:
@@ -10,7 +9,7 @@ def create_tasks_list(self):
       print("Enter TasksList Name, please:")
       task_name = input()
 
-      new_task = tasks_list.TasksListc(task_name.strip())
+      new_task = TasksListc(task_name.strip())
 
       self.tasks_lists.append(new_task)
       with shelve.open("local_storage") as db:
@@ -158,7 +157,7 @@ def print_tasks_list_with_their_tasks(self):
     i+=1
 
 def add_tasks_list(self, name):
-   added_tasks_list = tasks_list.TasksListc(name)
+   added_tasks_list = TasksListc(name)
    self.tasks_lists.append(added_tasks_list)
    with shelve.open("local_storage") as db:
       db['tasks_lists'] = self.tasks_lists
