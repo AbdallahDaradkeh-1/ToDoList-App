@@ -1,5 +1,5 @@
 from tkinter import *
-
+from tkinter import ttk
 
 def refresh_tasks_list(operations_object, frame):
   for widget in frame.winfo_children():
@@ -34,3 +34,20 @@ def save_task_list(subject, operations_object, frame):
 
      
   refresh_tasks_list(operations_object, frame)
+
+
+def create_tasks_list_form(frame, operations_object, tasks_list_frame):
+    
+  create_label = ttk.Label(frame, text="Create A TaskList Title")
+  tasks_list_subject = ttk.Entry(frame)
+  create_button = ttk.Button(
+    frame,
+    text="Create",
+    command= lambda: save_task_list(tasks_list_subject, operations_object, tasks_list_frame)
+  )
+
+
+  create_label.grid(padx=5, pady=5)
+  tasks_list_subject.grid(padx=5)
+  create_button.grid(row=1,column=1)
+
