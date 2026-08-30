@@ -144,8 +144,8 @@ def print_tasks_list_with_their_tasks(self):
   t = 1
   index = 0
   task_index = 0
-  for tasksList in self.tasks_lists:
-    print(f"{i}" + "\t" +  tasksList.name + f"\t{tasksList.date}\n")
+  for tasks_list in self.tasks_lists:
+    print(f"{i}" + "\t" +  tasks_list.name + f"\t{tasks_list.date}\n")
     while task_index < len(self.tasks_lists[index].tasks):
        print(f"\t{t}", self.tasks_lists[index].tasks[task_index].name, self.tasks_lists[index].tasks[task_index].date)
        t += 1
@@ -163,3 +163,18 @@ def add_tasks_list(self, name):
       db['tasks_lists'] = self.tasks_lists
       print(f"tasks_lists '{name}' has been added" )
 
+def change_tasks_lists_name(self, name, id):
+    for tasks_list in self.tasks_lists:
+      if id == tasks_list.id:
+         tasks_list.name = name
+         save_changed_tasks_lists_name(self, name)
+         return
+    print(f"No TasksList Exist With Such name '{name}'")
+         
+   
+
+def save_changed_tasks_lists_name(self, name):
+   with shelve.open("local_storage") as db:
+         db['tasks_lists'] = self.tasks_lists
+         print(f"tasks_lists new name '{name}' has been submitted" )
+   
