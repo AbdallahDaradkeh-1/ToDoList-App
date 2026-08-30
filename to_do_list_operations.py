@@ -13,6 +13,11 @@ class ToDoListOperations:
   def add_tasks_list(self, name):
     tasks_list_logic.add_tasks_list(self, name)
 
+  def save_changed_tasks_list_name(self, name):
+    tasks_list_logic.save_changed_tasks_lists_name(self, name)
+  def change_tasks_lists_name(self, name, id):
+    tasks_list_logic.change_tasks_lists_name(self, name, id)
+
   def create_tasks_list(self):
     tasks_list_logic.create_tasks_list(self)
 
