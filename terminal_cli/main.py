@@ -29,8 +29,6 @@ class Main:
   def start(self):
     while True:
       try:  
-        
-          self.operations.load_tasks_list_data()
 
           print("Welcome, Enter Operation Number You Want To Perform:")
           self.show_menu()
@@ -42,7 +40,7 @@ class Main:
           elif operation_number == 3:
             self.operations.deleteListsOptions()
           elif operation_number == 4:
-            self.operations.FindSpecificTaskList()
+            self.operations.find_specific_task_list()
           elif operation_number == 5:
             self.operations.add_task_to_specific_tasks_list()
           elif operation_number == 6:
