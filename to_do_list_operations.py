@@ -25,11 +25,11 @@ class ToDoListOperations:
   def print_tasks_list_info(self):
     tasks_list_logic.print_tasks_list_info(self)
 
-  def deleteListsOptions(self):
-   tasks_list_logic.deleteListsOptions(self)
+  def delete_lists_options(self):
+   tasks_list_logic.delete_lists_options(self)
 
-  def FindSpecificTaskList(self):
-    tasks_list_logic.FindSpecificTaskList(self, self.tasks_lists)
+  def find_specific_task_list(self):
+    tasks_list_logic.find_specific_task_list(self, self.tasks_lists)
   def add_task_to_specific_tasks_list(self):
     tasks_list_logic.add_task(self)
   def print_tasks_list_with_their_tasks(self):
