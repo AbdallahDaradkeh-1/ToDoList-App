@@ -173,8 +173,27 @@ def change_tasks_lists_name(self, name, id):
          
    
 
-def save_changed_tasks_lists_name(self, name):
+def save_changed_tasks_lists(self, name):
    with shelve.open("local_storage") as db:
          db['tasks_lists'] = self.tasks_lists
-         print(f"tasks_lists new name '{name}' has been submitted" )
-   
+         
+
+def save_changed_tasks_lists_name(self, name):
+   save_changed_tasks_lists(self, name)
+   print(f"tasks_lists new name '{name}' has been submitted" )
+         
+
+def delete_task_list(self, id):
+  index = 0
+  for tasks_list in self.tasks_lists:
+      if tasks_list.id == id:
+         deleted_tasks_list = self.tasks_lists.pop(index)
+         save_changed_tasks_lists(self, deleted_tasks_list.name)
+         print(f"{deleted_tasks_list} Has Been Deleted Successfully!!!")
+         return
+      index += 1
+  print("No Such TaskList with such id to delete")
+
+
+         
+         
