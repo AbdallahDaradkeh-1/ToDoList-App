@@ -9,7 +9,8 @@ class ToDoListOperations:
 
   def load_tasks_list_data(self):
     load_data.load_tasks_list_data(self)
-
+  def delete_task_list(self, tasks_list_id):
+    tasks_list_logic.delete_task_list(self, tasks_list_id)
   def add_tasks_list(self, name):
     tasks_list_logic.add_tasks_list(self, name)
 
