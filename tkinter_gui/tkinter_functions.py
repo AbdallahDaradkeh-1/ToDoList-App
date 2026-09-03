@@ -53,8 +53,10 @@ def edit_task_list(new_entry, edit_action, the_frame, action_row, operations_obj
     cancel_button = ttk.Button(the_frame, text="Cancel")
     cancel_button.grid(row=action_row, column=2)
     # entry.grid_configure()
+    
 
     save_button.config(command= lambda entry = new_entry, save_button = save_button, cancel_button = cancel_button, operations_object= operations_object, edit_action = edit_action, tasks_list_id = tasks_list_id : save_new_task_list(entry, save_button, cancel_button, operations_object, edit_action, tasks_list_id))
+    cancel_button.config(command=lambda save_button = save_button, cancel_button = cancel_button, edit_action = edit_action, entry = new_entry : cancel_function(save_button, cancel_button, edit_action, entry))
 
 def delete_task_list(tasks_list_id, the_frame, operations_object):
     operations_object.delete_task_list(tasks_list_id)
@@ -71,7 +73,11 @@ def save_new_task_list(entry, save_button, cancel_button, operations_object, edi
     edit_action.grid_configure()
     entry.config(state='readonly')
     
-
+def cancel_function(save_button, cancel_button, edit_action,entry):
+    save_button.grid_remove()
+    cancel_button.grid_remove()
+    edit_action.grid_configure()
+    entry.config(state='readonly')
 
 
 def create_tasks_list_form(frame, operations_object, tasks_list_frame):
