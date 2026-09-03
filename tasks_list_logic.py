@@ -28,7 +28,7 @@ def print_tasks_list_info(self):
     for tasks_list in self.tasks_lists:
       print(f"{i}" + "\t" + tasks_list.name + " " + f"{tasks_list.date}" + " " + tasks_list.id + "\n")
       i+=1
-def deleteListsOptions(self):
+def delete_lists_options(self):
     try:  
       print("Delete Options")
       print("Choose What do you want to delete?")
@@ -37,7 +37,7 @@ def deleteListsOptions(self):
       print("3. Cancel")
       delete_option = int(input())
       if delete_option == 1:
-        helper_methods.deleteGeneralList(self.tasks_lists)
+        helper_methods.delete_general_list(self.tasks_lists)
       elif delete_option == 2:
         self.print_tasks_list_info()
         print("Enter TasksList Title You Wanna Delete")
@@ -77,7 +77,7 @@ def delete_specific_task_list(title, list):
 
   print("TasksList with such title is not exist")
   
-def FindSpecificTaskList(self, list):
+def find_specific_task_list(self, list):
    index = 1
    outputs = 0
    self.print_tasks_list_info()
