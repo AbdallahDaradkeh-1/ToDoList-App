@@ -38,7 +38,7 @@ class Main:
           elif operation_number == 2:      
             self.operations.print_tasks_list_info()
           elif operation_number == 3:
-            self.operations.deleteListsOptions()
+            self.operations.delete_lists_options()
           elif operation_number == 4:
             self.operations.find_specific_task_list()
           elif operation_number == 5:
